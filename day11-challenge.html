@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>You Are Awesome!</title>
+    <title>Day11 Code Challenge</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
@@ -14,5 +14,104 @@
     />
     <link rel="stylesheet" href="./css/day11-style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="top-bar">
+        <div class="top-bar__column">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="top-bar__column">
+          <span class="top-bar__column__text">library</span>
+        </div>
+        <div class="top-bar__column">
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+      </div>
+
+      <form class="search-box">
+        <input
+          class="search-box__bar"
+          type="text"
+          placeholder="Search-books..."
+        />
+        <i class="fas fa-search fa-lg"></i>
+      </form>
+
+      <main class="content">
+        <h2 class="content-title">Book of the Day</h2>
+        <div class="content-box">
+          <div class="content-box__img"></div>
+          <div class="content-box__text">
+            <h3 class="content-box__sub__text">No Fixed Abode</h3>
+            <span>Journey Through</span>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="content-box__text__info">
+              <div class="content-box__text__info__column">
+                <span>Journey</span>
+                <span>Biography</span>
+              </div>
+              <div class="content-box__text__info__column">
+                <div class="bookmark-wrap">
+                  <i class="fas fa-bookmark fa-lg"></i>
+                </div>
+                <p>Book Now</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="content-title">Top Adventures</h2>
+        <div class="content-box">
+          <div class="content-box__img__wrap">
+            <div class="content-box__img__mid"></div>
+            <div class="stars stars-small">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="content-box__img__wrap">
+            <div class="content-box__img__mid"></div>
+            <div class="stars stars-small">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="content-box__img__wrap">
+            <div class="content-box__img__mid"></div>
+            <div class="stars stars-small">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <h2 class="content-title">Popular authors</h2>
+        <div class="content-box">
+          <div class="content-box__large__img"></div>
+          <div class="content-box__text">
+            <h3 class="content-box__sub__text bottom-text">
+              George Raymond Richard Martin
+            </h3>
+            <span class="bottom-text"
+              >Modern Amerianc science fiction writer, screenwriter, producer
+              and editor, winner of many literary awards.</span
+            >
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
