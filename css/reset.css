@@ -127,10 +127,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+/* 사용자 리셋 */
 input:focus {
   outline: none;
 }
-/* 사용자 리셋 */
 a {
   color: inherit;
   text-decoration: none;
