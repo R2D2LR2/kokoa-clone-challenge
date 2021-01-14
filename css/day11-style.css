@@ -9,7 +9,6 @@ body {
 .container {
   display: flex;
   width: 400px;
-  height: 100vh;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.03);
 }
@@ -66,7 +65,7 @@ body {
   display: flex;
   margin-bottom: 25px;
 }
-.content-box__img {
+.content-box__img img {
   width: 120px;
   height: 200px;
   /* border: 1px solid black; */
@@ -130,6 +129,11 @@ body {
 .stars {
   margin-bottom: 10px;
 }
+.stars-small {
+  margin-left: 10px;
+  margin-top: 15px;
+  font-size: 10px;
+}
 .content-box__img__wrap {
   display: flex;
   flex-direction: column;
@@ -137,20 +141,15 @@ body {
   margin-right: 20px;
 }
 
-.content-box__img__mid {
+.content-box__img__mid img {
   width: 80px;
   height: 130px;
   background-color: tomato;
   border-radius: 10px;
   margin-left: 10px;
 }
-.stars-small {
-  margin-left: 10px;
-  margin-top: 10px;
-  font-size: 12px;
-}
 
-.content-box__large__img {
+.content-box__large__img img {
   width: 120px;
   height: 170px;
   background-color: tomato;
