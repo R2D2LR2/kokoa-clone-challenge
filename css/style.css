@@ -9,6 +9,7 @@
 
 @import "./screens/login.css";
 @import "./screens/friends.css";
+@import "./screens/find.css";
 
 * {
   box-sizing: border-box;
