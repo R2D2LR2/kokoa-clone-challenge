@@ -7,23 +7,34 @@
   display: flex;
   align-items: center;
 }
-
 .user-component__avater {
   width: 70px;
   height: 70px;
   border-radius: 30px;
   margin-right: 25px;
 }
-
+.user-component__text {
+  position: relative;
+}
 .user-component__title {
   font-weight: 600;
   font-size: 18px;
 }
-
 .user-component__subtitle {
   margin-top: 5px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
+}
+.user-component__exclamation {
+  display: block;
+  position: absolute;
+  right: -25px;
+  bottom: 0;
+  color: red;
+  border: 1px solid red;
+  width: 20px;
+  border-radius: 50%;
+  text-align: center;
 }
 .user-component__avater--xl {
   width: 80px;
