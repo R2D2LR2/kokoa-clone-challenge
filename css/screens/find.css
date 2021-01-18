@@ -47,6 +47,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: var(--main-border);
+  padding: 20px 0px;
 }
 
 .open-post__title {
@@ -54,8 +56,10 @@
   margin-bottom: 7px;
 }
 .open-post__hashtags {
-  text-transform: uppercase;
   opacity: 0.6;
+}
+.open-post__uppercase {
+  text-transform: uppercase;
 }
 .open-post__members {
   margin-top: 7px;
