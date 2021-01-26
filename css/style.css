@@ -14,6 +14,7 @@
 @import "./screens/screen-header.css";
 @import "./screens/alt-screen-header.css";
 @import "./screens/settings.css";
+@import "./screens/chat.css";
 
 * {
   box-sizing: border-box;
