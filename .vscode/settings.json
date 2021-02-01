@@ -1,5 +1,7 @@
 {
     "emmet.variables": {
         "lang": "kr"
-    }
+    },
+    "workbench.colorTheme": "Community Material Theme",
+    "workbench.iconTheme": "eq-material-theme-icons-palenight"
 }
